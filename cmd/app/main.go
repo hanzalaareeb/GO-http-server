@@ -1,12 +1,9 @@
 package main
 
-import "github.com/codegangsta/martini"
+import "fmt"
 
 func main() {
-	// creating first server
-	m := martini.Classic()
-	m.Get("/", func() string {
-		return "Hello world!"
-	})
-	m.Run()
+	// Creating To-do application
+
+	fmt.Println("fuck you")
 }
