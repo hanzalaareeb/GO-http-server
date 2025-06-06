@@ -1,4 +1,4 @@
-module github.com/hanzalaalareeb/GO_server
+module github.com/hanzalaareeb/HTTPGolang
 
 go 1.22.2
 
