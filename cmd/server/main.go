@@ -5,12 +5,12 @@
 package main
 
 import (
-	"log" // For logging messages, especially errors.
-	"os"  // Used to access OS-level functionality, like signals.
+	"log"
+	"os"
 
-	"github.com/hanzalaareeb/HTTPGolang/pkg/handlers" // Our custom package for API handlers.
-	"github.com/hanzalaareeb/HTTPGolang/pkg/router"   // Our custom router package.
-	"github.com/hanzalaareeb/HTTPGolang/pkg/server"   // Our custom server package.
+	"github.com/hanzalaareeb/HTTPGolang/pkg/handlers"
+	"github.com/hanzalaareeb/HTTPGolang/pkg/router"
+	"github.com/hanzalaareeb/HTTPGolang/pkg/server"
 )
 
 // main is the function where the execution of the program begins.
