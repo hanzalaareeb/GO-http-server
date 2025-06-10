@@ -60,4 +60,5 @@ func main() {
 	log.Println("Shutting down server...")
 
 	// Here you would call s.Stop() to gracefully shut down the server.
+	// more changes are required
 }
